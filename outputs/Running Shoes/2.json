@@ -1,0 +1,258 @@
+{
+    "documents": [
+        {
+            "id": "id__1856",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.45,
+                "neutral": 0.28,
+                "negative": 0.27
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.58,
+                        "neutral": 0.41,
+                        "negative": 0.01
+                    },
+                    "offset": 0,
+                    "length": 85,
+                    "text": "These running shoes offer decent comfort and support for light to moderate workouts. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 33,
+                            "length": 7,
+                            "text": "comfort",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 6,
+                            "length": 13,
+                            "text": "running shoes",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 26,
+                            "length": 6,
+                            "text": "decent",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 45,
+                            "length": 7,
+                            "text": "support",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.21,
+                        "negative": 0.78
+                    },
+                    "offset": 85,
+                    "length": 108,
+                    "text": "The design is fairly standard, with nothing particularly groundbreaking in terms of style or functionality. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 89,
+                            "length": 6,
+                            "text": "design",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 169,
+                            "length": 5,
+                            "text": "style",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 178,
+                            "length": 13,
+                            "text": "functionality",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 142,
+                            "length": 14,
+                            "text": "groundbreaking",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.81,
+                        "negative": 0.18
+                    },
+                    "offset": 193,
+                    "length": 109,
+                    "text": "The cushioning provides adequate support for shorter runs, but may not hold up as well for longer distances. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.63,
+                        "negative": 0.36
+                    },
+                    "offset": 302,
+                    "length": 91,
+                    "text": "The durability is average, with signs of wear appearing after a few months of regular use. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.73,
+                                "negative": 0.27
+                            },
+                            "offset": 306,
+                            "length": 10,
+                            "text": "durability",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "mixed",
+                            "confidenceScores": {
+                                "positive": 0.73,
+                                "negative": 0.27
+                            },
+                            "offset": 320,
+                            "length": 7,
+                            "text": "average",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.77,
+                        "neutral": 0.21,
+                        "negative": 0.02
+                    },
+                    "offset": 393,
+                    "length": 65,
+                    "text": "Overall, they're a decent option for casual runners or gym-goers.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 419,
+                            "length": 6,
+                            "text": "option",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "mixed",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 412,
+                            "length": 6,
+                            "text": "decent",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
